@@ -4,6 +4,8 @@ This package is the basic react template for any single-page applications.
 
 This package supplies a yml file to automatically deploy to a firebase project
 
+quick change
+
 ## Available Scripts
 
 In the project directory, you can run:
