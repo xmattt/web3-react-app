@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./Main.js";
+import Main from "./pages/Main.js";
 
 class App extends React.Component {
   state = { currentWindow: "Main" };
