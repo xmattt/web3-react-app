@@ -23,7 +23,7 @@ class Main extends React.Component {
             <p className="is-size-4 has-text-dark is-family-primary has-text-weight-normal mt-4 mb-6">Connect a wallet to start racing</p>
             <div className="is-flex is-justify-content-center">
             <figure class="image is-32x32">
-              <img src="./bike.png" />
+              <img src="./bike.png" alt="bike" />
             </figure>
             </div>
           </div>
