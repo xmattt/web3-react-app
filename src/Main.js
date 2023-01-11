@@ -17,7 +17,7 @@ class Main extends React.Component {
           </div>
         </div>
 
-        <div className="App columns is-centered has-background-white pr-4 pl-4">
+        <div className="App columns is-centered has-background-white-ter pr-4 pl-4">
           <div className="container column is-11 has-background-white-bis mt-5 shadowBox is-flex is-justify-content-center is-flex-direction-column">
             <p className="is-size-1 has-text-dark is-family-primary has-text-weight-medium">Ape Rides Arena</p>
             <p className="is-size-4 has-text-dark is-family-primary has-text-weight-normal mt-4 mb-6">Connect a wallet to start racing</p>
@@ -25,6 +25,7 @@ class Main extends React.Component {
             <figure class="image is-32x32">
               <img src="./bike.png" alt="bike" />
             </figure>
+            <hr className="has-background-dark"/>
             </div>
           </div>
         </div>
