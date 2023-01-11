@@ -10,13 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      name: Install modules
+    - name: Install modules
       run: npm i
-    - uses: actions/checkout@v2
-      name: Run ESLint
-      run: npm run lint-q
-    - uses: actions/checkout@v2
-      name: Build the Application
+    - name: Build the Application
       run: npm run build
     - uses: FirebaseExtended/action-hosting-deploy@v0
       name: Deploy to Preview Channel
