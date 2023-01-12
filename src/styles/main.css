@@ -45,7 +45,7 @@ hr {
 .apeRidesText {
 	height: 40px;
 	width: 125px;
-	background-image: url('./images/aperidestext.png');
+	background-image: url('../images/aperidestext.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -320,7 +320,7 @@ input {
 }
 @keyframes bikeMoving {
 	from { left: 20%; }
-	to { left: 76.5% }
+	to { left: 76.7% }
 }
 
 .bikeArena {
@@ -371,20 +371,20 @@ input {
 	opacity: 0.7;
 }
 
-.bayc{background-image: url("./images/collectionLogos/1.png");}
-.mayc{background-image: url("./images/collectionLogos/2.png");}
-.gacc{background-image: url("./images/collectionLogos/5.png");}
-.daw{background-image: url("./images/collectionLogos/6.png");}
-.trac{background-image: url("./images/collectionLogos/0.png");}
-.xbayc{background-image: url("./images/collectionLogos/3.png");}
-.xmayc{background-image: url("./images/collectionLogos/4.png");}
-.sac{background-image: url("./images/collectionLogos/7.png");}
-.layc{background-image: url("./images/collectionLogos/9.webp");background-size:60%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center;}
-.payc{background-image: url("./images/collectionLogos/8.png");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center;}
-.jbas{background-image: url("./images/collectionLogos/10.jpg");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center}
-.arc{background-image: url("./images/collectionLogos/11.png");background-size:65%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center}
-.btfd{background-image: url("./images/collectionLogos/12.jpeg");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center}
-.baddies{background-image: url("./images/collectionLogos/13.svg");background-size:65%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center}
+.bayc{background-image: url("../images/collectionLogos/1.png");}
+.mayc{background-image: url("../images/collectionLogos/2.png");}
+.gacc{background-image: url("../images/collectionLogos/5.png");}
+.daw{background-image: url("../images/collectionLogos/6.png");}
+.trac{background-image: url("../images/collectionLogos/0.png");}
+.xbayc{background-image: url("../images/collectionLogos/3.png");}
+.xmayc{background-image: url("../images/collectionLogos/4.png");}
+.sac{background-image: url("../images/collectionLogos/7.png");}
+.layc{background-image: url("../images/collectionLogos/9.webp");background-size:60%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center;}
+.payc{background-image: url("../images/collectionLogos/8.png");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center;}
+.jbas{background-image: url("../images/collectionLogos/10.jpg");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center}
+.arc{background-image: url("../images/collectionLogos/11.png");background-size:65%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center}
+.btfd{background-image: url("../images/collectionLogos/12.jpeg");background-size:70%;background-repeat:no-repeat;background-color: black;background-position:center}
+.baddies{background-image: url("../images/collectionLogos/13.svg");background-size:65%;background-repeat:no-repeat;background-color: rgb(25, 25, 25);background-position:center}
 
 #expanded {
 	position: fixed;
@@ -411,14 +411,14 @@ overflow-x: hidden;
 .logo {
 	width: 40px;height: 40px;margin-left:20px;z-index: 9995;
 	background-size: contain;
-	background-image: url("./images/logo.png");
+	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
 	}
 .expandApes{
 	width: 40px;
 	height: 40px;
 	background-size: contain;
-	background-image: url("./images/expandw.png");
+	background-image: url("../images/expandw.png");
 	background-repeat: no-repeat;
 	background-position: center;
 
@@ -432,7 +432,7 @@ overflow-x: hidden;
 		width: 27px;
 	height: 27px;
 	background-size: contain;
-	background-image: url("./images/restartw.png");
+	background-image: url("../images/restartw.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -440,7 +440,7 @@ overflow-x: hidden;
 		width: 40px;
 	height: 40px;
 	background-size: 25px;
-	background-image: url("./images/back.png");
+	background-image: url("../images/back.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -572,14 +572,14 @@ overflow-x: hidden;
 .c-success  {
 	width: 4vw;
   height: 4vw;
-  background-image: url(./images/success.png);
+  background-image: url('../images/success.png');
   background-size: cover;
     display: inline-block;
 }
 .c-error {
 	width: 4vw;
   height: 4vw;
-  background-image: url("./images/error.png");
+  background-image: url("../images/error.png");
   background-size: cover;
     display: inline-block;
 }
@@ -1048,12 +1048,12 @@ letter-spacing: 0.2vw;
 }
 
 .sTwitter {
-	background-image: url("./images/twitterlogo.png");
+	background-image: url("../images/twitterlogo.png");
 	background-size: contain;
 }
 
 .sDiscord {
-	background-image: url("./images/discordlogo.png");
+	background-image: url("../images/discordlogo.png");
 }
 
 
@@ -1149,7 +1149,7 @@ letter-spacing: 0.2vw;
 .ape {
 	width: 250px;
 	height: 250px;
-	background-image: url("./images/ape.png");
+	background-image: url("../images/ape.png");
 	background-size: contain;
 	background-position: bottom;
 	position: absolute;
