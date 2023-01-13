@@ -20,12 +20,12 @@ class CryptoConnect extends React.Component {
 
 	    if(typeof window.ethereum !== 'undefined') {
 			console.log('window')
-	      const chainID= await window.ethereum.request({ method: 'eth_chainId' });
+	      //const chainID= await window.ethereum.request({ method: 'eth_chainId' });
 
 	      const accounts = await window.ethereum.request({method: 'eth_requestAccounts'})
 
 	        
-	      const web3 = new Web3(window.ethereum)
+	      //const web3 = new Web3(window.ethereum)
 
 	      window.ethereum.on('chainChanged', chainId => {
 	      });
@@ -62,7 +62,7 @@ class CryptoConnect extends React.Component {
 
     	const web3 = new Web3(provider)
 
-      	let chainID = await web3.eth.getChainId()
+      	//let chainID = await web3.eth.getChainId()
 
 		provider.on("chainChanged", chainId => {
 		});
