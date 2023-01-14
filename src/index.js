@@ -1,7 +1,6 @@
 import 'bulma/css/bulma.min.css';
-import "./index.css";
-import './main.css'
-
+import "./styles/index.css";
+import './styles/main.css'
 
 import React from "react";
 import ReactDOM from "react-dom";
