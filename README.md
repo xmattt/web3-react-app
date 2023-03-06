@@ -1,4 +1,4 @@
-# crypto-react-app
+# web3-react-app
 
 This package is the basic react template for any single-page applications.
 
@@ -78,6 +78,5 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
 This package takes concepts from the default app built with [Create React App](https://github.com/facebook/create-react-app).
